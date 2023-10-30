@@ -1,6 +1,6 @@
 // I start of by creating a array of words called wordArray I took a few words from the dictionary.txt file and added it the array
 
-let wordArray = [
+const wordArray = [
   "abaft",
   " abalone",
   "abamp",
