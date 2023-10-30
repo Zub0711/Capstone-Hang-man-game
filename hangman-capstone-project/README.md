@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Getting started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First you will have to download the files from my github.
+github link : https://github.com/Zub0711/Capstone-Hang-man-game
 
-## Available Scripts
+### Checks
 
-In the project directory, you can run:
+Insure you have react installed and node modules.
 
-### `npm start`
+### "npm start"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To start the game run npm start in the command line or terminal.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Welcome
 
-### `npm test`
+Once the game is running it will load the welcome page to proceed
+with the game click the play button as instructed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Game play
 
-### `npm run build`
+Once the play button is clicked you will proceed to the game.
+the number of attempts you have are located on the top of the page you will have 11
+chances to guess the word. Below is the image of the hangman as you get the letters wrong
+the execution platform will continue to be drawn until the stickman is hanged.Once the
+stickman is hanged the message will pop up saying that you have lost. If you win
+the message will display you won.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Keypad
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Keypad is what you will use to select the letters when you attempt to guess the word.
+Once you have selected a letter it will become disabled narrowing down the search for the right
+letter.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Navigation
 
-### `npm run eject`
+The 3 navigation buttons are
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. play which takes you to the game
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Help which takes you to the help page with details about the game in case you are in need of assistance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Back to home which takes you back to the welcome page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Reset
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Once you are done with the game wether you win or lose if you click the restart game button the game will restart
