@@ -20,7 +20,6 @@ let wordArray = [
   "viewing",
   " viewless",
   " viewpoint",
-
   " vigesimal",
   " yogi",
   " yogic",
